@@ -1,0 +1,48 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.menu li {
+    list-style: none;
+    font-weight: bold;
+}
+.menu li a {
+  outline-color: transparent;
+  inline-size: auto;
+}
+
+.menu li a:visited {
+  color: #000000;
+}
+
+.menu li a:hover {
+  text-decoration: none;
+}
+
+.search-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icons {
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+}
